@@ -13,11 +13,11 @@ use regex::Regex;
 #[derive(Parser, Debug)]
 #[clap(about, long_about = None)]
 struct Args {
-    /// Name of the person to greet
+    /// Uptobox api token
     #[clap(short = 't', long)]
     token: String,
 
-    /// Number of times to greet
+    /// Uptobox links
     #[clap(short = 'l', long)]
     links: String,
 }
